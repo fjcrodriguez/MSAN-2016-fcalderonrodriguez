@@ -24,7 +24,6 @@ def blur(img):
     return img_copy
 
 
-
 '''
     avg returns the average of a list given
     :param list
