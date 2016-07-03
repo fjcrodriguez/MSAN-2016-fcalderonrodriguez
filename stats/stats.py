@@ -3,9 +3,6 @@ import numpy as np
 import time
 
 
-
-
-
 '''
     compute square root of n
 
