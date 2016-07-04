@@ -2,7 +2,7 @@ from stats import *
 import matplotlib.pyplot as plt
 
  
-N = 4 
+N = 20
 TRIALS = 2000
 
 
@@ -34,4 +34,5 @@ Y = [normpdf(x, mean, sqrt(var)) for x in np.arange(0.0, 1.0, 0.005)]
 
 plt.plot(np.linspace(0.0, 1.0, len(Y)), Y, '-r')
 
+plt.savefig('clt-unif-N20-hist.pdf', format='pdf')
 plt.show()
