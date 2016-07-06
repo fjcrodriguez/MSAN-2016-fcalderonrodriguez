@@ -1,6 +1,5 @@
 from stats import * 
 import matplotlib.pyplot as plt
-
  
 N = 20
 TRIALS = 2000
